@@ -1,0 +1,12 @@
+.flex-container {
+    width: 1000px;
+    display: grid;
+    background: #D7D7D7;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+
+  }
+  
+  .flex-container-item {
+    background: white;
+  }
