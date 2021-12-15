@@ -1,0 +1,74 @@
+body{
+    background-color:#f3d499 ;
+    overflow-x: hidden;
+}
+
+.boeken{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color:#1c885e;
+}
+
+
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: -100px;
+}
+
+#boekenimages{
+    height: 500px;
+    margin-top: 20px;
+    margin-left: -100px;
+
+}
+
+#prijs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: -100px;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#auteur{
+    margin-left: -1000px;
+    margin-top: -420px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#uitgever{
+    margin-left: -1000px;
+    margin-top: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+
+#uitgekomen{
+    margin-left: -1000px;
+    margin-top: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#genre{
+    margin-left: -1000px;
+    margin-top: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+#samenvatting{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 500px;
+    margin-top: -250px;
+    margin-left: 900px;
+    background-color: #28df99;
+    color:#08462e;
+    border-style: solid;
+
+}

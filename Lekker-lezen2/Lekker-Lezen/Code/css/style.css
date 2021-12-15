@@ -1,0 +1,178 @@
+/*Navbar*/
+
+#naam a{
+    color: #dcf5d4;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left:-50px;
+    
+}
+
+#naam a:hover{
+    background-color: #28df99;
+    padding: 7.5px 16px;
+}
+
+.topnav{
+    height: 70px;
+    width: 102%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #28df99;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+
+.topnav2{
+    height: 70px;
+    width: 102%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #28df99;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: flex-end;
+    
+}
+
+.topnav a{
+    padding: 14px 16px;
+    font-size: 20px;
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgba(0, 128, 0, 0.274);
+    border-radius: 25px;
+    
+}
+
+/*alle pagina's*/
+
+body{
+    background-color:#f3d499 ;
+    overflow-x: hidden;
+}
+
+/*Homepage*/
+
+.boeken{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.boekenimages{
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 55px;
+}
+
+.title{
+    display: flex;
+    margin-top: 420px;
+    margin-left: -235px;
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+}
+
+.title a{
+    color:#21a371;
+    font-size:17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title a:link{
+    text-decoration: none;
+}
+
+.title a:hover{
+    text-decoration: underline;
+
+}
+
+.prijs a{
+    display: flex;
+    margin-top: 470px;
+    margin-left: -260px;
+    justify-content: space-around;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:#c08267;  
+}
+
+
+
+
+/*informatie pagina*/
+
+#title{
+    margin-top: 50px;
+    color:rgb(201, 17, 17);
+}
+
+#text{
+    margin-top: -100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.info-box{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 460px;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(155, 228, 155, 0.541);
+    border-width: thick;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images{
+    margin-top: -400px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right{
+   margin-right: 30px;
+}
+
+/*footer voor elke pagina*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c08267;
+    width: 102%;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bodyinfo{
+    overflow-y: hidden;
+}
+

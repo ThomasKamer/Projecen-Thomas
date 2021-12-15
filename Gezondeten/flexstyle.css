@@ -1,0 +1,38 @@
+.flexbox-container{
+    
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    background-color: turquoise;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    background-color: teal;
+}
+
+.flexbox-item-3{
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+.vertical-center{
+    margin:  20px;
+    position: center;
+    top: 50%;
+    text-align: center;
+    
+   }
